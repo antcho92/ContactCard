@@ -15,6 +15,9 @@ $(document).ready(function() {
             "width": "250px",
             "height": "auto"
         });
+        $("#firstName").val("");
+        $("#lastName").val("");
+        $("#description").val("");
         return false;
     });
 });
